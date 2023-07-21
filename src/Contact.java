@@ -43,6 +43,5 @@ public class Contact {
         this.address = address;
     }
 
-    // Getters and setters (optional, based on requirement)
-    // You can add other methods here as per your needs
+  
 }

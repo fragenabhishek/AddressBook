@@ -17,6 +17,7 @@ public class Main {
             System.out.println("4. Update contact");
             System.out.println("5. Delete contact");
             System.out.println("6. Exit");
+            System.out.println("7. filename to load contacts from");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
             scanner.nextLine(); // Consume the newline character
