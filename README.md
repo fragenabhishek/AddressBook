@@ -1,64 +1,37 @@
-Address Book Application
-The Address Book Application is a simple Java program that allows users to manage their contacts. Users can perform various operations, such as adding, viewing, searching, updating, and deleting contacts in the address book. Additionally, the application provides the functionality to load contacts from a file.
+# Address Book Application
 
-Table of Contents
-Introduction
-Features
-Usage
-Installation
-How to Run
-File Format
-Contributing
-License
-Features
-The Address Book Application offers the following features:
+A simple command-line based address book application written in Java.
 
-Add a new contact: Users can add a new contact to the address book by providing details such as name, phone number, email, and address.
+## Introduction
 
-View all contacts: Users can view all the contacts currently stored in the address book.
+The Address Book Application is a command-line program that allows users to manage their contacts. It provides various functionalities, such as adding a new contact, viewing all contacts, searching for contacts, updating contact information, and deleting contacts.
 
-Search contact: Users can search for contacts by providing a search query, and the application will display the matching contacts.
+## Features
 
-Update contact: Users can update the information of an existing contact by providing the contact name and the new details (phone number, email, and address).
+- Add a new contact with name, phone number, email, and address.
+- View all contacts in the address book.
+- Search for contacts by name, phone number, or email.
+- Update contact information, including phone number, email, and address.
+- Delete contacts from the address book.
 
-Delete contact: Users can delete a contact from the address book by providing the contact name.
+## Installation
 
-Load contacts from a file: Users can load contacts from a CSV file into the address book.
+1. Ensure you have Java Development Kit (JDK) installed on your system.
+2. Download the `Main.java` file from this repository.
+3. Compile the Java file using the following command in the terminal:
 
-Usage
-The Address Book Application can be used to maintain a digital address book with the ability to perform CRUD (Create, Read, Update, Delete) operations on contacts.
 
-Installation
-To use the Address Book Application, you will need the following:
+## Usage
 
-Java Development Kit (JDK) installed on your machine.
+1. Run the compiled program using the following command:
 
-A text editor or Integrated Development Environment (IDE) to edit and run the Java code.
 
-How to Run
-Clone this repository to your local machine.
+2. Choose an option from the menu to perform different actions in the address book.
 
-Open the project in your preferred text editor or IDE.
+## Contributing
 
-Compile the Java code to create the executable class files.
+Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or create a pull request.
 
-Run the Main class to start the Address Book Application.
+## License
 
-Follow the on-screen instructions to interact with the application.
-
-File Format
-The application supports loading contacts from a CSV (Comma-Separated Values) file. The CSV file should have the following format:
-
-typescript
-Copy code
-Name, Phone Number, Email, Address
-John Doe, 1234567890, john@example.com, 123 Main St
-Jane Smith, 9876543210, jane@example.com, 456 Elm St
-...
-Each line in the CSV file represents a contact, and the contact details are separated by commas.
-
-Contributing
-Contributions to the Address Book Application are welcome! If you find any bugs or have ideas for new features, please feel free to open an issue or submit a pull request.
-
-License
-The Address Book Application is open-source software released under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
+This project is licensed under the [MIT License](LICENSE).
